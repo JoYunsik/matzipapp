@@ -3,7 +3,7 @@ import React from 'react';
 import 'react-native-gesture-handler';
 
 
-import AuthStackNavigator from './src/navigations/AuthStackNavigator';
+import AuthStackNavigator from './src/navigations/stack/AuthStackNavigator';
 import RootNavigator from './src/navigations/root/RootNavigator';
 
 function App() {

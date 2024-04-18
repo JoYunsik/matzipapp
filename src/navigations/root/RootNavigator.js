@@ -1,8 +1,8 @@
-import AuthStackNavigator from "../AuthStackNavigator";
+import AuthStackNavigator from "../stack/AuthStackNavigator";
 import MainDrawerNavigator from "../drawer/MainDrawerNavigator";
 
 const RootNavigator = ()=> {
-    const isLoggedIn = true;
+    const isLoggedIn = false;
 
     return (
         <>
